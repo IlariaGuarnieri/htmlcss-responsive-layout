@@ -101,7 +101,7 @@
   margin-bottom: 20px;
 }
 
-/* terza sezione */
+/* quarta sezione */
 
 .container-benefit{
   background-color: #9792E4 ;
@@ -121,6 +121,34 @@
   margin-bottom: 20px;
   height: 400px;
 }
+
+/* quinta sezione */
+.about-us{
+  background-color: #dad9e1 ;
+  width: 100%;
+  height: 1000px;
+}
+
+.card-about{
+  width: 90%;
+  margin: 0 auto;
+  height: 600px;
+  background-color: bisque;
+}
+
+.card-help{
+  width: 90%;
+  margin: 0 auto;
+  height: 400px;
+  background-color: rgb(181, 150, 113);
+}
+
+/* sesta sezione */
+
+.container-get-started{
+background: ;
+}
+
 }
 
 
