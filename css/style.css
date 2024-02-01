@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width:480px){
+  /* navbar */
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    max-width:480px;
+    background-color: #0184FD;
+    margin-bottom: 30px;
+  }
+  .navbar-logo{
+    background-color: rgba(216, 112, 147, 0.403);
+    width: 40%;
+    height: 100%;
+  }
+  .navbar-hamburger{
+    background-color: rgba(237, 23, 94, 0.28);
+    width: 40%;
+    height: 100%;
+  }
+   /*prima sezione container */
+  .container{
+    background-color: aqua;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .margin-card{
+    margin-bottom: 20px;
+  }
+
+  .card-demo{
+    width: 100%;
+    height:500px;
+    background-color: blueviolet;
+  }
+
+  .card{
+    width: 100%;
+    height:300px;
+  }
+  .clean{
+    background-color: rgb(200, 162, 235);
+  }
+  .web-design{
+    background-color: rgb(216, 233, 100);
+  }
+
+  .developement{
+    background-color: rgb(241, 98, 98);
+  }
+  
+  .branding{
+    background-color: rgb(43, 226, 49);
+  }
+/* sezione 2 container viola */
+  .container-violet{
+    background-color: #9893E4;
+    max-width: 100%;
+    height: 1000px;
+    margin: 0 auto;
+  }
+
+  .card-strategic{
+    height: 400px;
+    background-color: rgba(228, 125, 249, 0.467);
+  }
+  
+  .card-app{
+    height: 400px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgba(133, 100, 139, 0.467);
+  }
+}
+
+
+
+
+/* risoluzione tablet */
+@media screen and (max-width:768px){
+
+}
+/* risoluzione dekstop */
+@media screen and (max-width:1200px){
+
+}
