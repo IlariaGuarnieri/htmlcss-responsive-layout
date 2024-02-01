@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width:480px){
+
   /* navbar */
   .navbar{
     display: flex;
@@ -149,7 +149,7 @@
 background: ;
 }
 
-}
+
 
 
 
