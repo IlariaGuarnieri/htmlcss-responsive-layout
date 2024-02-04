@@ -367,7 +367,6 @@ width: 100%;
   width: 90%;
   margin: 0 auto;
   height: 400px;
-  background-color: rgb(181, 150, 113);
 }
 
 .photo-bc{
@@ -378,8 +377,27 @@ width: 100%;
   border-radius: 50%;
   justify-content: center;
   align-items: center;
+  line-height: 40px;
 }
 
+.card-help h2{
+  color: #9792E4;
+}
+
+.btn-linkedin{
+  background-color: #9792E4;
+  color: white;
+  height: 30px;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.fa-linkedin{
+  margin-right: 9px;
+}
 
 
 /* sesta sezione */
@@ -394,10 +412,64 @@ width: 100%;
 
 .card-started{
   text-align: center;
-  background-color: #FDC160;
+  letter-spacing: 2px;
   width: 90%;
-  height: 90%;
+  height: 85%;
   margin: 0 auto;
+}
+
+.card-started h4{
+  text-transform: uppercase;
+  color: #d8d6f8;
+}
+
+.card-started h3{
+  color: white;
+  font-size: 25px;
+}
+
+.card-started h2{
+  font-size: 45px;
+  color: #FDC261;
+}
+
+.card-started p{
+color: white;
+}
+
+.started{
+  display: flex;
+  justify-content: center;
+}
+.btn-started{
+  background-color: #fff;
+  color: #9792E4;
+  height: 50px;
+  width: 240px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+
+.copyright{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  font-size: 0.7rem;
+}
+
+.fa-circle{
+  font-size: 6px;
+  align-items: center;
+}
+.copy{
+  color: white;
+  font-size: 0.7rem;
+}
+
+#underline{
+  text-decoration: underline;
 }
 
 /* footer */
@@ -405,16 +477,23 @@ width: 100%;
 footer{
   background-color: #333;
   width: 100%;
-  height: 200px;
   color: white;
 }
 
-.footer-text{
-  background-color: #b0ceea;
+.footer-text p{
+  font-size: 0.8rem;
+  text-align: center;
+  color: white;
   width: 90%;
   height: 90%;
   margin: 0 auto;
 }
+
+#inline{
+color: #9792E4;
+text-decoration: underline;
+}
+
 
 /* inizio media query */
 /* risoluzione tablet */
