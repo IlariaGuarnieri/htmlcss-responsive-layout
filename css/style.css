@@ -18,9 +18,9 @@ font-family: 'PT Sans', sans-serif;;
   background-color: #0A84FD;
   margin-bottom: 30px 
   }
+
   .navbar-logo{
-  display: flex;
-  justify-content: center;
+margin-left: 20px;
   align-items: center;
   width: 30%;
   height: 100%;
